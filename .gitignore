@@ -1,0 +1,6 @@
+# Ignore any temp JPGs
+*.jpg
+
+# Ignore any release zips
+*.zip
+release/
