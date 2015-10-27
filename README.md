@@ -6,8 +6,8 @@ military aircraft in use during World War II.
 
 3D Scale
 =========
-Currently, the 3D STL files have been designed so the aircraft will print out at 1:700 scale, making them suitable for board
-games such as *[Axis & Allies](https://en.wikipedia.org/wiki/Axis_%26_Allies)*.
+Currently, the 3D STL files have been designed so the aircraft will print out at 1:700 scale with a height of 1.5 mm, making
+them suitable for board games such as *[Axis & Allies](https://en.wikipedia.org/wiki/Axis_%26_Allies)*.
 
 If there is demand, additional scales will be added to the repository.
 
