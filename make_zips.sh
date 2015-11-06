@@ -10,14 +10,13 @@ rm release/*.zip 2> /dev/null
 # Change to STL directory
 cd STL
 
-# Step through directories/files
+# Step through directories
 for i in *
 do
-    zip $i ./$i/*
+    # CD into country
+    cd $i
+    # Add STLs to zip in /release
+    zip ../../release/$i *    
+    # Go back a dir before loop
+    cd ..
 done
-
-# Back to root
-cd ..
-
-# Move zips
-mv STL/*.zip release/
